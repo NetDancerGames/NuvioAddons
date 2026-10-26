@@ -1,0 +1,16 @@
+{
+  "id": "com.nuvio.entrepeliculasyseries",
+  "name": "EntrePeliculasySeries",
+  "version": "1.0.0",
+  "description": "Scraper local de contenido en español para EntrePeliculasySeries.",
+  "icon": "https://entrepeliculasyseries.nz/favicon.ico",
+  "scrapers": [
+    {
+      "id": "entrepeliculasyseries",
+      "name": "EntrePeliculasySeries",
+      "contentLanguage": ["es"],
+      "formats": ["movie", "tv"],
+      "filename": "entrepeliculasyseries.js"
+    }
+  ]
+}
